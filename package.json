@@ -2,7 +2,7 @@
     "name": "rosedu-ng",
     "description": "ROSEdu Website",
     "license": "UNLICENSED",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "author": "Bogdan Marius Calapod <bogdan.marius.calapod@outlook.com>",
     "dependencies": {
         "gatsby": "^1.9.145",
