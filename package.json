@@ -95,7 +95,7 @@
         "jest": "^22.0.3",
         "lint-staged": "^7.0.4",
         "prettier": "^1.9.2",
-        "prettier-standard": "^8.0.1",
+        "prettier-standard": "^16.4.1",
         "prop-types": "^15.6.0",
         "react": "16.2.0",
         "react-dom": "16.2.1",
