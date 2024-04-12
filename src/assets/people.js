@@ -31,35 +31,29 @@ const persons = {
   main_members: [
     {
       name: 'Răzvan Deaconescu',
-      position: 'Co-founder',
+      position: 'President & Co-founder',
       photo: razvanDeaconescuImg
     },
 
+    {
+      name: 'Victor Ciurel',
+      position: 'Vice President',
+      photo: victorCiurelImg
+    },
+
+    {
+      name: 'Sergiu Weisz',
+      position: 'Vice President',
+      photo: sergiuWeiszImg
+    }
+  ],
+  extra_members: [
     {
       name: 'Răzvan Rughiniș',
       position: 'Co-founder',
       photo: razvanRughinisImg
     },
 
-    {
-      name: 'Tudor Cebere',
-      position: 'President',
-      photo: tudorCebereImg
-    },
-
-    {
-      name: 'Dorin Geman',
-      position: 'Vice President',
-      photo: dorinGemanImg
-    },
-
-    {
-      name: 'Andrei Serițan',
-      position: 'Vice President',
-      photo: andreiSeritanImg
-    }
-  ],
-  extra_members: [
     {
       name: 'Mircea Bardac',
       position: 'Co-founder',
@@ -139,6 +133,12 @@ const persons = {
     },
 
     {
+      name: 'Tudor Cebere',
+      position: 'Member',
+      photo: tudorCebereImg
+    },
+
+    {
       name: 'Horia Ion',
       position: 'Member',
       photo: horiaIonImg
@@ -151,9 +151,21 @@ const persons = {
     },
 
     {
+      name: 'Andrei Serițan',
+      position: 'Member',
+      photo: andreiSeritanImg
+    },
+
+    {
       name: 'Ebru Resul',
       position: 'Member',
       photo: ebruResulImg
+    },
+
+    {
+      name: 'Dorin Geman',
+      position: 'Member',
+      photo: dorinGemanImg
     },
 
     {
