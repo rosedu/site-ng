@@ -3,10 +3,12 @@
 node_modules
 .cache/
 .idea/
+**/*.swp
 # Build directory
 public/
 .DS_Store
 desktop.ini
 yarn-error.log
+yarn.lock
 .vscode/*
 **/*.css
