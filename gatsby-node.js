@@ -7,10 +7,10 @@
 const fs = require('fs-extra')
 const path = require('path')
 
-exports.modifyWebpackConfig = ({ config, stage }) => {
-  config.merge({
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
     resolve: {
-      root: [path.resolve('./src')]
+      modules: [path.resolve(__dirname, 'src'), 'node_modules']
     }
   })
 }

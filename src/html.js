@@ -3,20 +3,20 @@ import React from 'react'
 let stylesStr
 if (process.env.NODE_ENV === `production`) {
   try {
-    stylesStr = require(`!raw-loader!../public/styles.css`)
+    stylesStr = require(`!raw-loader!../public/styles.468d3403f1e15b313e29.css`)
   } catch (e) {
     console.log(e)
   }
 }
 
-module.exports = class HTML extends React.Component {
+export default class HTML extends React.Component {
   render () {
     let css
     if (process.env.NODE_ENV === `production`) {
       css = (
         <style
           id='gatsby-inlined-css'
-          dangerouslySetInnerHTML={{ __html: stylesStr }}
+          dangerouslySetInnerHTML={{ __html: stylesStr.default }}
         />
       )
     }
