@@ -85,21 +85,9 @@ const persons = {
     },
 
     {
-      name: 'Victor Ciurel',
-      position: 'Member',
-      photo: victorCiurelImg
-    },
-
-    {
       name: 'Iulian Radu',
       position: 'Member',
       photo: iulianRaduImg
-    },
-
-    {
-      name: 'Sergiu Weisz',
-      position: 'Member',
-      photo: sergiuWeiszImg
     },
 
     {
