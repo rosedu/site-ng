@@ -40,13 +40,13 @@ class Sponsorship extends Component {
             </ButtonLink>
           </div>
           <div className='box'>
-            <h2>{Text['percent2_title'][this.props.lang]}</h2>
-            <p>{Text['percent2_content'][this.props.lang]}</p>
+            <h2>{Text['tax_redirect_title'][this.props.lang]}</h2>
+            <p>{Text['tax_redirect_content'][this.props.lang]}</p>
             <ButtonLink
               primary={true}
-              target={'https://redirectioneaza.ro/rosedu/doilasuta'}
+              target={'https://formular230.ro/asociatia-rosedu'}
             >
-              {Text['percent2_button'][this.props.lang]}
+              {Text['tax_redirect_button'][this.props.lang]}
             </ButtonLink>
           </div>
         </div>

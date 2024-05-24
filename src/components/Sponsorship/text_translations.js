@@ -46,17 +46,17 @@ export default {
     ro: 'Trimite mesaj',
     en: 'Send message'
   },
-  percent2_title: {
-    ro: '2%',
-    en: ' 2%'
+  tax_redirect_title: {
+    ro: '3.5%',
+    en: ' 3.5%'
   },
-  percent2_content: {
+  tax_redirect_content: {
     ro:
       'Orice ajutor este binevenit ca sa ne putem duce la bun sfarsit proiectele educative!',
     en:
       'Any provided help is welcome so that we can complete educational projects!'
   },
-  percent2_button: {
+  tax_redirect_button: {
     ro: 'Redirectioneaza',
     en: 'Redirect'
   }
